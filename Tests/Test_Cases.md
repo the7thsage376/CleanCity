@@ -1,4 +1,4 @@
-**Student Name**: Lerato Moloi
+**Student Name**: Lerato Moloi <br>
 **Date**:
 
 ## Test cases  
@@ -16,7 +16,7 @@
 - **Status**: 
 ---
 
-**Student Name**: Tosin A. Williams
+**Student Name**: Tosin A. Williams <br>
 **Date**:
 
 ## Test cases  
@@ -34,7 +34,7 @@
 - **Status**: 
 ---
 
-**Student Name**: Thandolwethu Ndhlovu
+**Student Name**: Thandolwethu Ndhlovu <br>
 **Date**:
 
 ## Test cases  
