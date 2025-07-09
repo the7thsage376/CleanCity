@@ -71,21 +71,24 @@
 ---
 
 **Student Name**: Thandolwethu Ndhlovu <br>
-**Date**:
+**Date**: 09/07/2025
 
 ## Test cases  
 
 <!--test case Template-->
-- **ID**: 
-- **Test**:
-- **Environment**:  
-- **Severity**
-- **Priority**:
-- **Steps to reproduce**:
-- **Expected**:
-- **Actual**:
-- **Attachments**:
-- **Status**: 
+ # ✅ CleanCity - Test Cases (Week 2)
+
+ ## Authentication System Test Cases
+ ### Test Case AS001 - Register account with missing fields
+- **Steps to Reproduce:**
+ 1. Enter a valid Name and Password
+ 2. Leave email as ""
+ 3. Click create Account
+- **Expected:**
+System should throw an error for empty field.
+- **Actual:**
+System throws an error for empty field
+- **Status:** Passed
 ---
 
 
