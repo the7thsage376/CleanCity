@@ -1,19 +1,45 @@
 **Student Name**: Lerato Moloi <br>
-**Date**:
+**Date**: 09/07/2025
 
 ## Test cases  
 
 <!--test case Template-->
-- **ID**: 
-- **Test**:
-- **Environment**:  
-- **Severity**
-- **Priority**:
-- **Steps to reproduce**:
-- **Expected**:
-- **Actual**:
-- **Attachments**:
-- **Status**: 
+## Request Management test cases
+
+### Test case RM001 - Admin pickup request modification
+**Precondition**: The user is logged in as an admin
+
+**Steps To Reproduce**:<br>
+
+1. Click on the Admin Tab
+2. Go to update request status
+3. Select the pickup request
+4. Select a status for the request
+5. Click update status
+
+**Expected**: The status of the selected pickup request is changed.<br>
+**Actual**: The pickup request status is changed.<br>
+ **Status**: Pass
+
+ ### Test case RM002 - Admins assigning pickup dates and times
+
+ **Precondition**: User is logged in as admin<br>
+
+**Steps to Reproduce**:
+1. Click the Admin Panel Tab
+2. Click on the edit button of the Action column
+**Expected**:  The user can change the pickup dates and times of the requests
+**Actual**: The Edit button is unresponsive
+**Status**: Fail
+
+
+### Test case RM003 - Filtering and Search capabilties
+
+**Precondition**:  User must be logged in as either an admin or a regular user<br>
+
+**Expected**:  Filter and Search results display items that meet the conditions.<br>
+**Actual**:  The location filter for “Eldoret” displays pickup requests in Nairobi (refer to bug report FR-056)<br>
+**Status**:  Fail
 ---
 
 **Student Name**: Tosin A. Williams <br>
