@@ -78,7 +78,7 @@
 <!--test case Template-->
  # ✅ CleanCity - Test Cases (Week 2)
 
- ## Authentication System Test Cases
+ ## 🔐 Authentication System Test Cases
  ### Test Case AS001 - Register account with missing fields
 - **Steps to Reproduce:**
  1. Enter a valid Name and Password
@@ -88,6 +88,20 @@
 System should throw an error for empty field.
 - **Actual:**
 System throws an error for empty field
+- **Status:** Passed
+
+  ---
+
+   ### Test Case AS002 - Log in with invalid Credentials
+ - **Preconditions:** User has registered an account
+- **Steps to Reproduce:**
+ 1. Navigate to login page
+ 2. Enter invalid email or password
+ 3. Click Sign in
+- **Expected:**
+System should throw invalid error.
+- **Actual:**
+System throws invalid error
 - **Status:** Passed
 ---
 
