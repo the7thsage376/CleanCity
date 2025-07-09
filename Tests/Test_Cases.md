@@ -27,9 +27,10 @@
 
 **Steps to Reproduce**:
 1. Click the Admin Panel Tab
-2. Click on the edit button of the Action column
-**Expected**:  The user can change the pickup dates and times of the requests
-**Actual**: The Edit button is unresponsive
+2. Click on the edit button of the Action column<br>
+ 
+**Expected**:  The user can change the pickup dates and times of the requests<br>
+**Actual**: The Edit button is unresponsive<br>
 **Status**: Fail
 
 
@@ -37,9 +38,9 @@
 
 **Precondition**:  User must be logged in as either an admin or a regular user<br>
 
-**Expected**:  Filter and Search results display items that meet the conditions.<br>
-**Actual**:  The location filter for “Eldoret” displays pickup requests in Nairobi (refer to bug report FR-056)<br>
-**Status**:  Fail
+- **Expected**:  Filter and Search results display items that meet the conditions.<br>
+- **Actual**:  The location filter for “Eldoret” displays pickup requests in Nairobi (refer to bug report FR-056)<br>
+- **Status**: Fail
 ---
 
 **Student Name**: Tosin A. Williams <br>
