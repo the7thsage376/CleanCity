@@ -1,5 +1,5 @@
 # Test Plan: CleanCity -Waste Pickup.
-**Group Name:** [The Preservation]
+**Group Name:** The Preservation
 
 **Date:** 01-07-2025
 
@@ -39,13 +39,13 @@ Verify that:
 - Network: 3G, 4G, WiFi
 
 ### Group Member: Lerato Moloi
-> **Testing Device:**
+> **Testing Device:** Laptop
 > 
-> **Browser Used:**
+> **Browser Used:** Microsoft Edge
 > 
-> **Network Conditions:**
+> **Network Conditions:** Fibre Wifi
 > 
-> **Testing Tools:**
+> **Testing Tools:**SonarQube
 
 ### Group Member: Tosin A. Williams
 > **Testing Device:**
