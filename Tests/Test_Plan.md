@@ -45,7 +45,7 @@ Verify that:
 > 
 > **Network Conditions:** Fibre Wifi
 > 
-> **Testing Tools:**SonarQube
+> **Testing Tools:** SonarQube
 
 ### Group Member: Tosin A. Williams
 > **Testing Device:**
