@@ -3,19 +3,18 @@
 
 ### Bug report [ WM003 ]
 
-Title: Homepage Feature Cards Show Hover Effect but Are Not Clickable
+**Title**: Homepage Feature Cards Show Hover Effect but Are Not Clickable
 
-Description: The “Easy Scheduling,” “Dashboard,” and “Blog & Community” feature cards on the homepage appear interactive (with hover effect), but clicking them does not trigger any navigation or action.
+**Description**: The “Easy Scheduling,” “Dashboard,” and “Blog & Community” feature cards on the homepage appear interactive (with hover effect), but clicking them does not trigger any navigation or action.
 
-Environment: Chrome
+**Environment**: Chrome
 
-Severity: Minor
+**Severity**: Minor
+
+**Priority**: Medium
 
 
-Priority:Medium
-
-
-Steps To Reproduce
+**Steps To Reproduce**:
 
 Launch the app on http://localhost:3000.
 
@@ -23,7 +22,7 @@ Scroll to the feature card section.
 
 Hover over each card and click on them.
 
-Expected Vs Actual
+**Expected Result**:
 
 Cards should navigate to their corresponding pages when clicked.
 
@@ -36,17 +35,16 @@ No response or navigation occurs when the cards are clicked.
 **Title**:Scheduled Waste Pickup Not Reflected on Dashboard
 
 
-Description: When a user successfully submits a pickup request through the scheduling form, the request does not appear on the dashboard as expected.
+**Description**: When a user successfully submits a pickup request through the scheduling form, the request does not appear on the dashboard as expected.
 
-Environment: Chrome
+**Environment**: Chrome
+
+**Severity**: Major
+
+**Priority**: High
 
 
-Severity: Major
-
-Priority: High
-
-
-Steps To Reproduce
+**Steps To Reproduce**:
 
 Navigate to the Schedule Pickup page.
 
@@ -57,10 +55,10 @@ Submit the form.
 Go to the Dashboard to verify request history.
 
 
-Expected Result:
+**Expected Result**:
 New pickup request should be displayed or reflected in the dashboard's list or statistics.
 
-Actual Result:
+**Actual Result**:
 Dashboard remains empty  no visible record of the submission.
 
 
