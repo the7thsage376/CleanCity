@@ -4,7 +4,7 @@ This document outlines the responsibilities of each QA team member in the CleanC
 
 ---
 
- QA Lead – Lerato Moloi
+ **QA Lead** – Lerato Moloi
 - Coordinate overall QA efforts and maintain project timelines
 - Set up and manage the Jira project board, workflows, and issue tracking
 - Lead the creation and review of the test plan and strategy
@@ -13,7 +13,7 @@ This document outlines the responsibilities of each QA team member in the CleanC
 
 ---
 
- QA Specialist – Thandolwethu Luyanda Ndhlovu
+ **QA Specialist** – Thandolwethu Luyanda Ndhlovu
 - Develop and execute functional test cases (authentication, scheduling, admin)
 - Validate UI workflows, input validation, and data persistence
 - Report bugs in Jira with full steps to reproduce, severity, and evidence
@@ -21,7 +21,7 @@ This document outlines the responsibilities of each QA team member in the CleanC
 
 ---
 
- QA Specialist – Tosin A Williams
+ **QA Specialist** – Tosin A Williams
 - Perform non-functional testing (performance, accessibility, usability)
 - Conduct accessibility evaluations (screen readers, keyboard navigation)
 - Use tools like Lighthouse, axe DevTools, and DevTools profiling
@@ -29,7 +29,7 @@ This document outlines the responsibilities of each QA team member in the CleanC
 
 ---
 
- Team Collaboration & Workflow
+ **Team Collaboration & Workflow**
 
 - All team members contribute to test case design, execution, and review
 - Issues and bugs are tracked and managed collaboratively using Jira
