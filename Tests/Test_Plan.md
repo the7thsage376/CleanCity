@@ -57,13 +57,13 @@ Verify that:
 > **Testing Tools:**
 
 ### Group Member: Thandolwethu L. Ndhlovu
-> **Testing Device:**
+> **Testing Device:** Laptop Lenovo Latitude`7490`
 > 
-> **Browser Used:**
+> **Browser Used:** Chrome
 > 
-> **Network Conditions:**
+> **Network Conditions:** Fibre WiFi
 > 
-> **Testing Tools:**
+> **Testing Tools:** DevTools, Jest
 
 ---
 
