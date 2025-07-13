@@ -65,12 +65,42 @@ Dashboard remains empty  no visible record of the submission.
 
 ---
 
-### Bug report [insert number]
+### Defect ID: D-001
 
-**Title**:
-**Steps to Reproduce**:
-**Expected**:
-**Actual**: 
-**Severity**:
+**Title:** Inconsistent App URL Handling
 
----
+**Description:**
+When the CleanCity application is opened using the VS Code Live Server (`http://127.0.0.1:5500`), user actions such as scheduling a waste pickup do not reflect on the dashboard. However, when the app is launched via `npm start` using React scripts (`http://localhost:3000`), all features and data interactions behave as expected.
+
+**Steps to Reproduce:**
+
+1. Start the application using `npm start`.
+2. Observe that the app runs at `http://localhost:3000`.
+3. Instead, open the app via VS Code Live Server which launches at `http://127.0.0.1:5500`.
+4. Attempt to register, schedule a pickup, or perform any data-driven task.
+5. Login to dashboard and observe that scheduled pickups are missing.
+
+**Expected Result:**
+
+* All user actions (e.g., scheduling pickups) should reflect in the dashboard regardless of which local server is used.
+
+**Actual Result:**
+
+* Data does not persist or reflect properly when the app is opened via Live Server.
+
+**Evidence (Screenshots):**
+
+* 📸 **Screenshot 1:** App running at `http://localhost:3000` with full feature access and correct behavior.
+  ![localhost-app](../screenshots/Screenshot%20\(753\).png)
+* 📸 **Screenshot 2:** App running at `http://127.0.0.1:5500/index.html` with form displayed, but backend functionality (e.g., scheduling pickup) not reflected.
+  ![liveserver-app](../screenshots/Screenshot%20\(752\).png)
+
+**Severity:** Critical
+**Priority:** High
+**Status:** Open
+**Logged By:** Tosin A. Williams
+**Date:** July 13, 2025
+
+
+
+
