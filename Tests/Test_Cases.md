@@ -130,6 +130,53 @@ System should throw invalid error.
 - **Actual:**
 System throws invalid error
 - **Status:** Passed
+
+  ---
+
+     ### Test Case AS003 - Log Out from User Account
+ - **Preconditions:** User has registered an account and logged in
+- **Steps to Reproduce:**
+ 1.Click on Log out 
+- **Expected:**
+User should be redirected to Login page.
+- **Actual:**
+User is redirected to Login page
+- **Status:** Passed
+
+  ---
+
+     ### Test Case AS004 - Checking Role Based Access
+ - **Preconditions:** User has registered a User and an Admin account
+- **Steps to Reproduce:**
+ 1. Login with User account
+ 2. Observe functions available to User account
+ 3. Logout with User account
+ 4. Login with Admin account
+ 5. Observe functions available to Admin account
+- **Expected:**
+Admin features should be hidden from User account.
+- **Actual:**
+  Admin features are hidden to User account
+- **Status:** Passed
+
+  ---
+
+  ## Community Features Test Cases
+     ### Test Case CM001 - Edit a User Profile
+ - **Preconditions:** User has registered  and logged  in with an account
+- **Steps to Reproduce:**
+ 1. Navigate to the profile
+ 2. Click edit profile
+ 3. Edit any field
+ 4. Click save
+ 5. Observe changes to profile  
+- **Expected:**
+Any changes made to the profile should persist.
+- **Actual:**
+  Changes made to profile persist 
+- **Status:** Passed
+
+  
 ---
 
 
