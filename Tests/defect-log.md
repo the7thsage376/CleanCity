@@ -117,5 +117,36 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Severity**: Major 
 **Priority**: High
 
+### Defect ID: FR-001.2 User Registration
+**Title**: User Registration Does Not Contain Phone Number
+**Description**: Logging in with invalid email format does not give an Error message and instead accepts registration.
+**Environment**: Chrome Desktop
+**Steps to Reproduce**:  
+1. Navigate To register page
+2. Observe lack of phone number field
+
+**Expected**: Registration should contain a field for Phone number  
+**Actual**: Registration does not contain a field for Phone number
+**Severity**: Minor 
+**Priority**: Low
+
+### Defect ID: FR-045 User Profile
+**Title**: Unable to Upload Profile Pictures
+
+**Description**: When Editing a profile , a user cannot upload a profile photo.
+
+**Environment**: Chrome Desktop
+
+**Steps to Reproduce**:  
+1. Navigate To profile page
+2. Click edit profile
+3. Click on the profile photo
+
+**Expected**:User should be able to upload a profile picture
+
+**Actual**: User is not able to upload a profile picture
+**Severity**: Minor 
+**Priority**: Low
+
 
 
