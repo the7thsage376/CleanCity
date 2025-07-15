@@ -161,7 +161,7 @@ Admin features should be hidden from User account.
 
   ---
 
-  ## Community Features Test Cases
+  ##  👥 Community Features Test Cases
      ### Test Case CM001 - Edit a User Profile
  - **Preconditions:** User has registered  and logged  in with an account
 - **Steps to Reproduce:**
@@ -176,6 +176,38 @@ Any changes made to the profile should persist.
   Changes made to profile persist 
 - **Status:** Passed
 
+---
+
+   ### Test Case CM002 - Upload a Profile Picture
+ - **Preconditions:** User has registered  and logged  in with an account
+- **Steps to Reproduce:**
+ 1. Navigate to the profile
+ 2. Click edit profile
+ 3. Click on the profile photo  
+- **Expected:**
+User should be able to upload a picture.
+- **Actual:**
+  User is not able to upload a picture.
+- **Status:** Falied
+
+--
+
+  ### Test Case CM003 - Community Post Author Consistency
+ - **Preconditions:** User must have two or more accounts
+- **Steps to Reproduce:**
+ 1. Log in with first account
+ 2. Navigate to community page
+ 3. Make a post on the community
+ 4. Observe post author
+ 5. Log out from first account
+ 6. Log in with a new account
+ 7. Navigate to community page
+ 8. Observe post author 
+- **Expected:**
+Author should be addressed as first account.
+- **Actual:**
+  New account inherits the author tittle of post.
+- **Status:** Falied
   
 ---
 
