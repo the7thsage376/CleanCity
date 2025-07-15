@@ -101,6 +101,7 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Logged By:** Tosin A. Williams
 **Date:** July 13, 2025
 
+
 ### Defect ID: FR-001 User Registration
 **Title**: Register with Incorrect Email Format Does Not Throw Error
 **Description**: Logging in with invalid email format does not give an Error message and instead accepts registration.
@@ -117,6 +118,7 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Severity**: Major 
 **Priority**: High
 
+
 ### Defect ID: FR-001.2 User Registration
 **Title**: User Registration Does Not Contain Phone Number
 **Description**: Logging in with invalid email format does not give an Error message and instead accepts registration.
@@ -129,6 +131,7 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Actual**: Registration does not contain a field for Phone number
 **Severity**: Minor 
 **Priority**: Low
+
 
 ### Defect ID: FR-045 User Profile
 **Title**: Unable to Upload Profile Pictures
@@ -149,4 +152,60 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Priority**: Low
 
 
+### Defect ID: FR-046 User Profile
+**Title**: Unable to See User Stats and History
 
+**Description**: When viewing a profile , a user cannot see their stats and History.
+
+**Environment**: Chrome Desktop
+
+**Steps to Reproduce**:  
+1. Post a blog on the community page
+2. Navigate To profile page
+3. Oserve post History and Stats
+
+**Expected**:User should be able view their post history
+
+**Actual**: User is not able to view their post history
+**Severity**: Major
+**Priority**: Highest
+
+
+### Defect ID: FR-046 User Profile
+**Title**: Unable To Follow Community Members
+
+**Description**: Following other community members is not possible.
+
+**Environment**: Chrome Desktop
+
+**Steps to Reproduce**:  
+1. Navigate to the community page
+2. Try to follow a community member
+**Expected**:User should be able follow other community members
+
+**Actual**: User is not able to follow other community members
+**Severity**: Major
+**Priority**: High
+
+
+### Defect ID: FR-046 User Profile
+**Title**: User Post Data Inconsistency
+
+**Description**: Any community post or comment made by a user is saved into localStorage wit no linkage to post author.
+
+**Environment**: Chrome Desktop
+
+**Steps to Reproduce**:  
+1. Log in with one account
+2. Navigate to community page
+3. Post or comment on the page
+4. Observe post author
+5. Log out from fist account
+6. Login with new account
+7. Navigate to community page
+8. Observe post author
+**Expected**: Author should be addressed to first account
+
+**Actual**: New account is addressed as author
+**Severity**: Critical
+**Priority**: Highest
