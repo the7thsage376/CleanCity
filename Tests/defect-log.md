@@ -101,6 +101,21 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Logged By:** Tosin A. Williams
 **Date:** July 13, 2025
 
+### Defect ID: FR-001 User Registration
+**Title**: Register with Incorrect Email Format Does Not Throw Error
+**Description**: Logging in with invalid email format does not give an Error message and instead accepts registration.
+**Environment**: Chrome Desktop
+**Steps to Reproduce**:  
+1. Navigate To register page
+2. Enter a fullname
+3. Enter an email with username@domain without the .com
+4. Enter a valid password
+5. Click Create account
+
+**Expected**: A clear error for invalid email appears  
+**Actual**: System accepts user registration as valid  
+**Severity**: Major 
+**Priority**: High
 
 
 
