@@ -2,11 +2,14 @@
 
 ### 📋 Project Summary
 
-Application Name: CleanCity – Waste Pickup Scheduler
-Testing Period: July 10 – July 14, 2025
-Tested By: Tosin A. Williams, Lerato Moloi, Thandolwethu L. Ndhlovu
+**Application Name**: CleanCity – Waste Pickup Scheduler<br>
 
-**Objective**: Ensure functional integrity, usability, accessibility, and performance of the CleanCity web application, including registration, scheduling, administrative functions, content management, Authentication system, community features,dashboard interaction, and navigation flows.
+**Testing Period**: July 10 – July 14, 2025 <br>
+
+**Tested By**: Tosin A. Williams, Lerato Moloi, Thandolwethu L. Ndhlovu
+
+**Objective**: 
+-Ensure functional integrity, usability, accessibility, and performance of the CleanCity web application, including registration, scheduling, administrative functions, content management, Authentication system, community features,dashboard interaction, and navigation flows.
 
 ---
 
@@ -23,7 +26,8 @@ Tested By: Tosin A. Williams, Lerato Moloi, Thandolwethu L. Ndhlovu
 | Awareness Page      | ✅ Pass | FR-08          | Navigation functional.                            |
 | Feedback Page       | ✅ Pass | FR-09          | Navigation functional.                            |
 | Logout Functionality | ✅ Pass | FR-10          | Session terminated and returned to login page.    |
-| Admin pickup request modification| Fail | FR-055 | 
+| Admin pickup request modification| Fail | FR-055 | There is no user interface available to modify requests|
+|
 
 
 
@@ -74,6 +78,7 @@ Date: July 13, 2025
 * The system works as intended on the correct environment (npm start / localhost:3000).
 * One defect logged and documented with screenshots.
 * Selenium script provides a reusable automation flow.
+* The core functionality isn't working as intended for the website's purpose.
 
 > ✅ This test cycle confirms functional readiness of CleanCity for demo/presentation.
 
