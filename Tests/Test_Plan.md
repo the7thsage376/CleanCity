@@ -1,7 +1,7 @@
 # Test Plan: CleanCity -Waste Pickup.
 **Group Name:** The Preservation
 
-**Date:** 01-07-2025
+**Date:** 15-07-2025
 
 **Scheduler:** Test Strategy (Week 1)
 
@@ -22,13 +22,11 @@ In the span of this testing cycle , we will cover tests for:
 
 ### Objectives:
 Verify that:
-- [ ] Users can register and login with the correct credentials
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [x] Users can register and login with the correct credentials
+- [ ] Users can Schedule a waste pickup request
+- [x] Users can access community and post blogs
+- [ ] Admins can track and monitor any waste pickup request
+- [ ] Users track any waste pickup request they made
 
 ---
 
