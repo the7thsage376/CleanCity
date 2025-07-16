@@ -46,13 +46,13 @@ Verify that:
 > **Testing Tools:** SonarQube
 
 ### Group Member: Tosin A. Williams
-> **Testing Device:**
+> **Testing Device:** laptop window 10
 > 
-> **Browser Used:**
+> **Browser Used:** Chrome
 > 
-> **Network Conditions:**
+> **Network Conditions:** WiFi
 > 
-> **Testing Tools:**
+> **Testing Tools:** DevTools
 
 ### Group Member: Thandolwethu L. Ndhlovu
 > **Testing Device:** Laptop Lenovo Latitude`7490`
