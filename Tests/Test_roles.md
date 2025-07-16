@@ -21,12 +21,19 @@ This document outlines the responsibilities of each QA team member in the CleanC
 
 ---
 
- **QA Specialist** – Tosin A Williams
-- Perform non-functional testing (performance, accessibility, usability)
-- Conduct accessibility evaluations (screen readers, keyboard navigation)
-- Use tools like Lighthouse, axe DevTools, and DevTools profiling
-- Assist in test environment setup and defect triaging
+ **QA Specialist – Tosin A. Williams
 
+Performed functional and non-functional testing including performance, usability, and accessibility assessments
+
+Conducted accessibility evaluations using screen readers, keyboard navigation, and compliance checks
+
+Utilized tools such as Lighthouse, axe DevTools, and Chrome DevTools for performance profiling and accessibility scoring
+
+Designed and executed Selenium-based automation scripts covering end-to-end flows (registration, scheduling, navigation, logout)
+
+Assisted in test environment setup, validating app behavior in different local hosting scenarios
+
+Collaborated on defect logging and triaging, documenting critical issues with visual evidence and severity analysis
 ---
 
  **Team Collaboration & Workflow**
