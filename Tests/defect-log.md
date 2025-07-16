@@ -1,7 +1,7 @@
 ## Defect-log
   
 
-### Bug report [ WM003 ]
+### Bug report WM003 
 
 **Title**: Homepage Feature Cards Show Hover Effect but Are Not Clickable
 
@@ -22,15 +22,15 @@ Scroll to the feature card section.
 
 Hover over each card and click on them.
 
-**Expected Result**:
+**Expected Result**: <br>
 
 Cards should navigate to their corresponding pages when clicked.
 
-Actual Result:
+**Actual Result**: <br>
 No response or navigation occurs when the cards are clicked.
 ---
 
-### Bug report [ DA002 ]
+### Bug report DA002 
 
 **Title**:Scheduled Waste Pickup Not Reflected on Dashboard
 
@@ -56,10 +56,10 @@ Go to the Dashboard to verify request history.
 
 
 **Expected Result**:
-New pickup request should be displayed or reflected in the dashboard's list or statistics.
+New pickup request should be displayed or reflected in the dashboard's list or statistics.<br>
 
 **Actual Result**:
-Dashboard remains empty  no visible record of the submission.
+Dashboard remains empty  no visible record of the submission.<br>
 
 
 
@@ -80,15 +80,15 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 4. Attempt to register, schedule a pickup, or perform any data-driven task.
 5. Login to dashboard and observe that scheduled pickups are missing.
 
-**Expected Result:**
+**Expected Result:** <br>
 
 * All user actions (e.g., scheduling pickups) should reflect in the dashboard regardless of which local server is used.
 
-**Actual Result:**
+**Actual Result:** <br>
 
 * Data does not persist or reflect properly when the app is opened via Live Server.
 
-**Evidence (Screenshots):**
+**Evidence (Screenshots):**<br>
 
 * 📸 **Screenshot 1:** App running at `http://localhost:3000` with full feature access and correct behavior.
   ![localhost-app](../screenshots/Screenshot%20\(753\).png)
@@ -102,5 +102,132 @@ When the CleanCity application is opened using the VS Code Live Server (`http://
 **Date:** July 13, 2025
 
 
+### Defect ID: FR-001 User Registration
+**Title**: Register with Incorrect Email Format Does Not Throw Error<br>
 
+**Description**: Logging in with invalid email format does not give an Error message and instead accepts registration.
 
+**Environment**: Chrome Desktop<br>
+
+**Steps to Reproduce**:<br>  
+1. Navigate To register page
+2. Enter a fullname
+3. Enter an email with username@domain without the .com
+4. Enter a valid password
+5. Click Create account
+
+**Expected**: A clear error for invalid email appears<br>
+
+**Actual**: System accepts user registration as valid<br>
+
+**Severity**: Major<br>
+
+**Priority**: High<br>
+
+---
+### Defect ID: FR-001.2 User Registration
+
+**Title**: User Registration Does Not Contain Phone Number<br>
+
+**Description**: Logging in with invalid email format does not give an Error message and instead accepts registration.<br>
+
+**Environment**: Chrome Desktop<br>
+
+**Steps to Reproduce**:<br>
+1. Navigate To register page
+2. Observe lack of phone number field
+
+**Expected**: Registration should contain a field for Phone number<br>
+
+**Actual**: Registration does not contain a field for Phone number<br>
+
+**Severity**: Minor<br>
+
+**Priority**: Low
+
+---
+### Defect ID: FR-045 User Profile
+**Title**: Unable to Upload Profile Pictures<br>
+
+**Description**: When Editing a profile , a user cannot upload a profile photo.<br>
+
+**Environment**: Chrome Desktop<br>
+
+**Steps to Reproduce**:  
+1. Navigate To profile page
+2. Click edit profile
+3. Click on the profile photo
+
+**Expected**:User should be able to upload a profile picture<br>
+
+**Actual**: User is not able to upload a profile picture<br>
+
+**Severity**: Minor<br>
+
+**Priority**: Low<br>
+---
+
+### Defect ID: FR-046 User Profile
+**Title**: Unable to See User Stats and History
+
+**Description**: When viewing a profile , a user cannot see their stats and History.
+
+**Environment**: Chrome Desktop
+
+**Steps to Reproduce**:  
+1. Post a blog on the community page
+2. Navigate To profile page
+3. Oserve post History and Stats
+
+**Expected**:User should be able view their post history
+
+**Actual**: User is not able to view their post history<br>
+
+**Severity**: Major<br>
+
+**Priority**: Highest <br>
+
+---
+### Defect ID: FR-046 User Profile
+**Title**: Unable To Follow Community Members
+
+**Description**: Following other community members is not possible.
+
+**Environment**: Chrome Desktop
+
+**Steps to Reproduce**:  
+1. Navigate to the community page
+2. Try to follow a community member
+**Expected**:User should be able follow other community members
+
+**Actual**: User is not able to follow other community members
+**Severity**: Major
+**Priority**: High
+
+---
+### Defect ID: FR-046 User Profile
+
+**Title**: User Post Data Inconsistency
+
+**Description**: Any community post or comment made by a user is saved into localStorage wit no linkage to post author.
+
+**Environment**: Chrome Desktop<br>
+
+**Steps to Reproduce**:  
+
+1. Log in with one account
+2. Navigate to community page
+3. Post or comment on the page
+4. Observe post author
+5. Log out from fist account
+6. Login with new account
+7. Navigate to community page
+8. Observe post author
+   
+**Expected**: Author should be addressed to first account<br>
+
+**Actual**: New account is addressed as author<br>
+
+**Severity**: Critical<br>
+
+**Priority**: Highest<br>

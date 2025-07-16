@@ -208,7 +208,34 @@ Author should be addressed as first account.
 - **Actual:**
   New account inherits the author tittle of post.
 - **Status:** Falied
-  
+
+  ---
+
+    ### Test Case CM004 - Check User Stats and History 
+ - **Preconditions:** User has registered  and logged  in with an account
+- **Steps to Reproduce:**
+ 1. Post a blog on the community page 
+ 2. Navigate to the profile
+ 3. Observe post history and achievements 
+- **Expected:**
+User post history and achievements should be visible.
+- **Actual:**
+  User history and achievements are not shown.
+- **Status:** Falied
+
+---
+
+  ### Test Case CM005 - Follow a Community Member
+ - **Preconditions:** User has registered  and logged  in with an account
+- **Steps to Reproduce:**
+ 1. Navigate to community page
+ 2. Follow a community member 
+- **Expected:**
+User should be able to follow any community member.
+- **Actual:**
+  User is not able to follow any community member.
+- **Status:** Falied
+
 ---
 
 
